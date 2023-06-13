@@ -5,7 +5,7 @@ on:
 
 jobs:
   ubuntu_hello:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - run: echo "Hello World from Ubuntu Runner!!"
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event"
